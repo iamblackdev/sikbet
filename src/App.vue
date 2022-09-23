@@ -37,6 +37,18 @@ body {
   box-sizing: border-box;
   color: white;
   background-color: #000 !important;
+
+  &::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 20%);
+    background: #5c5c5c;
+  }
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 18px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #2e2e2e;
+  }
 }
 
 h1,

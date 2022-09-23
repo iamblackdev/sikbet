@@ -268,7 +268,7 @@ export default {
   top: 0;
   width: 200px;
   height: 200px;
-  right: 28px;
+  right: -20px;
   top: 38%;
 }
 .fixed_ads2 {
@@ -278,7 +278,7 @@ export default {
   top: 0;
   width: 200px;
   height: 200px;
-  right: 28px;
+  right: -20px;
   top: 68%;
 }
 .fixed_ads3 {
@@ -288,7 +288,7 @@ export default {
   top: 0;
   width: 200px;
   height: 200px;
-  left: 28px;
+  left: 0px;
   top: 68%;
 }
 </style>

@@ -183,6 +183,7 @@ export default {
   }
 
   .header {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -383,7 +384,7 @@ export default {
   }
   .dropdown {
     z-index: 32;
-    position: fixed;
+    position: absolute;
     top: 45px;
     right: 0;
     background-color: rgba(0, 0, 0, 0.8);
